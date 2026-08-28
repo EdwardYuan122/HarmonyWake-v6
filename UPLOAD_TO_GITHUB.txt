@@ -1,0 +1,24 @@
+Harmony Wake v6 上传说明
+========================
+
+把本压缩包解压后的以下内容直接上传到 GitHub 仓库根目录：
+
+.github/
+HarmonyWake-source/
+UPLOAD_TO_GITHUB.txt
+
+正确结构必须是：
+
+仓库根目录/
+├── .github/
+│   └── workflows/
+│       └── build-apk.yml
+├── HarmonyWake-source/
+│   ├── app/
+│   ├── build.gradle
+│   ├── gradle.properties
+│   └── settings.gradle
+└── UPLOAD_TO_GITHUB.txt
+
+注意：网页批量上传有时会漏掉以点开头的隐藏目录 `.github`。
+上传后请在仓库最外层确认 `.github` 和 `HarmonyWake-source` 是同级目录。

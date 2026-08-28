@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Harmony Wake</string>
+    <string name="accessibility_service_label">Harmony Wake 自动上划</string>
+    <string name="accessibility_service_description">仅用于在没有 PIN、密码或图案的上划锁屏上执行自动上划手势，以便定时打开用户选择的应用。</string>
+</resources>
